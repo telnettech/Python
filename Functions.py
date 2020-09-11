@@ -39,9 +39,9 @@ def packer_loop(*args):
         print(val)
 
 
-# def calculate_total(*args): Issue with function. Talk with Mentors about it
-#    total = sum(args)
-#    print(total)
+def calculate_total(*args):
+    total = sum(args)
+    print(total)
 
 # Using function to unpack variables
 def unpacker():
@@ -55,15 +55,15 @@ def unpacker2():
 print_fav_movie()
 set_num()
 print(two_plus_two())
-sum = two_plus_two()
-print(sum)
+value = two_plus_two()
+print(value)
 print(two_plus_two() * 2)
 add_two(5)
 print(add_two(5))  # Parameter 'num' from function needed within print statement
 print(multi_param(5, 10))  # Both parameters needed for function to work.
 packer('hi', 'I', 'love', 'python')
 packer_loop('hi', 'I', 'love', 'python')  # Prints on individual lines
-# calculate_total(25, 25, 20, 30)
+calculate_total(25, 25, 20, 30)
 var1, var2, var3 = unpacker() # Takes function and puts values to the variables
 print(var1)
 print(var2)
