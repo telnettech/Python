@@ -39,7 +39,7 @@ def packer_loop(*args):
         print(val)
 
 
-# def calculate_total(*args):
+# def calculate_total(*args): Issue with function. Talk with Mentors about it
 #    total = sum(args)
 #    print(total)
 
