@@ -43,6 +43,7 @@ def calculate_total(*args):
     total = sum(args)
     print(total)
 
+
 # Using function to unpack variables
 def unpacker():
     return (1, 2, 3)
@@ -64,7 +65,7 @@ print(multi_param(5, 10))  # Both parameters needed for function to work.
 packer('hi', 'I', 'love', 'python')
 packer_loop('hi', 'I', 'love', 'python')  # Prints on individual lines
 calculate_total(25, 25, 20, 30)
-var1, var2, var3 = unpacker() # Takes function and puts values to the variables
+var1, var2, var3 = unpacker()  # Takes function and puts values to variables
 print(var1)
 print(var2)
 print(var3)
