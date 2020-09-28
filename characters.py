@@ -20,6 +20,9 @@ class Thief(Character):  # Thief class inherits Character class attributes
     def hide(self, light_level):
         return self.sneaky and light_level < 10
 
+    def __str__(self):
+        return "{}: {}".format(self.__class__.__name__, self.name)
+
 
 # Declares a variable that calls the class
 kenneth = Thief()
